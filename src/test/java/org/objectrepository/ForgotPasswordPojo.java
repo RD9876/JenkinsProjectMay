@@ -11,7 +11,7 @@ public class ForgotPasswordPojo extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//a[contains(text(),'Forfghjk?')]")
+	@FindBy(xpath = "//a[contains(text(),'Forgotten password?')]")
 	private WebElement linkForgotPassword;
 
 	@FindBy(id = "identify_email")
